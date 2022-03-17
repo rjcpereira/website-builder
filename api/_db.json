@@ -1,0 +1,80 @@
+{
+    "menus": {
+        "principal": [
+            { "title": "Início", "path": "/" },
+            { "title": "COVID-19'", "path": "/noticias/covid19" },
+            { "title": "Atualidade", "path": "/noticias/atualidade" },
+            { "title": "Desporto", "path": "/noticias/desporto" },
+            { "title": "Economia", "path": "/noticias/economia" },
+            { "title": "Vida", "path": "/noticias/vida" },
+            { "title": "Glamour", "path": "/noticias/glamour" },
+            { "title": "Tecnologia", "path": "/noticias/tecnologia" },
+            { "title": "Planeta", "path": "/noticias/planeta" },
+            { "title": "Regiões", "path": "/noticias/regioes" }
+        ]
+    },
+    "routes": {
+        "/": {
+            "title": "Bem Vindos"
+        },
+        "/noticias/covid19": {
+            "title": "Covid 19"
+        },
+        "/noticias/atualidade": {
+            "title": "Atualidade"
+        },
+        "/noticias/desporto": {
+            "title": "Desporto"
+        },
+        "/noticias/economia": {
+            "title": "Economia"
+        },
+        "/noticias/vida": {
+            "title": "Vida"
+        },
+        "/noticias/glamour": {
+            "title": "Glamour"
+        },
+        "/noticias/tecnologia": {
+            "title": "Tecnologia"
+        },
+        "/noticias/planeta": {
+            "title": "Planeta"
+        },
+        "/noticias/regioes": {
+            "title": "Regiões"
+        }
+    },
+    "articles": [
+        { "highlighted": 1, "title": "China nega que Rússia tenha pedido apoio militar e acusa EUA de “desinformação”", "path": "/noticias/atualidade" },
+        { "highlighted": 1, "title": "Imagens de satélite mostram a destruição de apartamentos nos arredores de Kiev, na invasão da Rússia", "path": "/atualidade/artigos/kiev" },
+        { "title": "Ucrânia: Número de refugiados ultrapassa barreira dos 2,8 milhões", "path": "/atualidade/artigos/em-direto" }
+    ],
+    "mongodb": {
+        "atualidade/artigos/kiev": {
+            "template": "post",
+            "title": "KIEV",
+            "body": "Imagens de satélite mostram a destruição de apartamentos nos arredores de Kiev, na invasão da Rússia"
+        },
+        "atualidade/artigos/em-direto": {
+            "template": "post",
+            "title": "Em Direto",
+            "body": "Ucrânia: Número de refugiados ultrapassa barreira dos 2,8 milhões"
+        },
+        "atualidade/artigos/pantone_value": {
+            "template": "post",
+            "title": "pantone & value",
+            "body": "true red year, 2002, color BF1932 pantone_value -1664"
+        },
+        "atualidade/artigos/aqua": {
+            "template": "post",
+            "title": "aqua 465",
+            "body": "aqua sky year, 2003, color 7BC4C4 pantone_value -4811"
+        },
+        "atualidade/artigos/tigerlily": {
+            "template": "post",
+            "title": "tigerlily 7",
+            "body": "tigerlily year, 2004, color E2583E pantone_value -1456"
+        }
+    }
+}

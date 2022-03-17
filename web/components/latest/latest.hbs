@@ -1,0 +1,10 @@
+<section id="latest">
+    <h2>Últimas</h2>
+    {{#each articles}}
+        {{#if highlighted}}{{else}}
+            <article>
+                <a href="{{#if path}}{{../config.base}}{{path}}{{else}}{{url}}{{/if}}/index.html">{{title}}</a>
+            </article>
+        {{/if}}
+    {{/each}}
+</section>

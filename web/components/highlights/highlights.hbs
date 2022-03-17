@@ -1,0 +1,10 @@
+<section id="highlights">
+    <h2>Destaques</h2>
+    {{#each articles}}
+        {{#if highlighted}}
+            <article>
+                <a href="{{#if path}}{{../config.base}}{{path}}{{else}}{{url}}{{/if}}/index.html">{{title}}</a>
+            </article>
+        {{/if}}
+    {{/each}}
+</section>

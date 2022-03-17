@@ -1,0 +1,8 @@
+{
+    "dev": false,
+    "templates": 2000,
+    "scripts": {
+        "render": "handlebars.runtime.min.js",
+        "socket": "socket.io.min"
+    }
+}

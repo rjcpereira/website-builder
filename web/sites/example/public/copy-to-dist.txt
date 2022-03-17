@@ -1,0 +1,1 @@
+copy this file to dist/public folder

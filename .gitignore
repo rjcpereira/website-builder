@@ -1,0 +1,30 @@
+.DS_Store
+node_modules
+dist
+bo/node_modules
+bo/*.log
+bo/.nuxt
+bo/nuxt.d.ts
+bo/.output
+bo/.env
+
+web/public/build.json
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

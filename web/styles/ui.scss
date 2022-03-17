@@ -1,0 +1,16 @@
+[disabled] {
+    cursor: default;
+    pointer-events: none;
+    opacity: .75;
+}
+[data-locked] {
+    overflow: hidden!important;
+}
+[data-widget] {
+    [data-view] {
+        display: none;
+        &.show {
+            display: block;
+        }
+    }
+}

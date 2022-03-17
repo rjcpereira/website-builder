@@ -1,0 +1,14 @@
+{
+    "id": "hey",
+    "title": "WebsiteBuilder",
+    "color": "#3ea6ff",
+    "widgets": {
+        "cinema": {
+            "tab": "premieres"
+        },
+        "player": true,
+        "eleicoes": {
+            "lazy": true
+        }
+    }
+}
